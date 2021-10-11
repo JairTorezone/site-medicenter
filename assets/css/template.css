@@ -128,6 +128,10 @@ nav a:hover{
 #geral aside{
     flex: 1;
 }
+.widget a{
+    text-decoration: none;
+
+}
 .widget_title{
     margin-top: 30px;
     margin-bottom: 20px;
@@ -142,4 +146,71 @@ nav a:hover{
     height: 2px;
     background-color: #36a9e1;
     margin-top: 10px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+article a{
+    text-decoration: none;
+}
+article .news_data{
+    display: flex;
+}
+article .news_posted_at,
+.news_comments{
+    background-color: #2b4c99;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+
+}
+article .news_comments{
+    background-color: #39aae1 ;
+}
+article .news_thumbnail{
+    margin-top: 30px;
+}
+article .news_thumbnail img{
+    width: 100%;
+    height: auto;
+}
+article h1{
+    font-size: 23px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+article p{
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.widget_boxs{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: #32aae1;
+    height: 130px;
+    width: 130px;
+}
+.box_departament{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.box_departament h1{
+    font-size: 15px;
+    padding: 30px;
+    margin: 10px;
+    color: #fff;
 }
