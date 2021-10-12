@@ -263,6 +263,18 @@ footer{
     padding: 20px;
     color: #fff;
 }
+.footer_menu h1{
+    font-size: 23px;
+    font-weight: bold;
+    color: #fff;
+}
+.footer_menu p,
+.footer_areaitem p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    padding-right: 20px;
+}
 .fm1{
     background-color: #39aae1;
 }
@@ -289,4 +301,27 @@ footer .widget_title_text{
     color: #5c5c5c;
     font-size: 12px;
     margin-top: 30px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.footer_area .icone{
+    display: flex;
+    flex: 1;
+    margin-top: 15px;
+    
+}
+.footer_area img{
+    margin-right: 5px;
+}
+.footer_areaitem ul{
+    margin: 0;
+    padding: 0;
+}
+.footer_areaitem li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
 }
